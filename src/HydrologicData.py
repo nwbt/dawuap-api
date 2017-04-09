@@ -10,10 +10,10 @@
 
 class HydrologicData(object):
 
-    def get_network(self, network_id):
-        return self._retrieve_network(network_id)
+    def get_network(self, network_id, geo_json=True):
+        return self._retrieve_network(network_id, geo_json)
 
-    def _retrieve_network(self, network_id):
+    def _retrieve_network(self, network_id, is_geojson):
         assert False, 'retrieve_network must be defined!'
 
     def get_networks(self):

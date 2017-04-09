@@ -17,7 +17,7 @@ setup(
     install_requires=[
         'cherrypy',
         'uwsgi',
-        'requests'
+        'requests', 'geojson', 'pyproj'
     ],
 
     extras_require={
@@ -25,6 +25,7 @@ setup(
             'ipython',
             'ipdb',
             'pdb',
+            'configparser',
         ],
     },
 
